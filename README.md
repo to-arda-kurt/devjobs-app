@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Devjobs App Frontendmentor Challanges
 
-## Getting Started
+Devjobs App is Job Ads Listing Applications for Developers. Original project created by [frontendmentor.io](https://www.frontendmentor.io/challenges/devjobs-web-app-HuvC_LP4l)
 
-First, run the development server:
+## Tech Stack
+
+**Client:** Next.js, Sass(/w Flexbox), React Icons
+
+**Todo:** MongoDB, Redux?
+
+## Color Reference
+
+| Primary Colors | Hex                                                              |
+| -------------- | ---------------------------------------------------------------- |
+| Violet         | ![#5964E0](https://via.placeholder.com/10/5964E0?text=+) #5964E0 |
+| Light Violet   | ![#939BF4](https://via.placeholder.com/10/939BF4?text=+) #939BF4 |
+| Very Dark Blue | ![#19202D](https://via.placeholder.com/10/19202D?text=+) #19202D |
+| Midnight       | ![#121721](https://via.placeholder.com/10/121721?text=+) #121721 |
+
+| Secondary Colors | Hex                                                              |
+| ---------------- | ---------------------------------------------------------------- |
+| White            | ![#FFFFFF](https://via.placeholder.com/10/fff?text=+) #FFFFFF    |
+| Light Gray       | ![#F4F6F8](https://via.placeholder.com/10/F4F6F8?text=+) #F4F6F8 |
+| Gray             | ![#9DAEC2](https://via.placeholder.com/10/9DAEC2?text=+) #9DAEC2 |
+| Dark Gray        | ![#6E8098](https://via.placeholder.com/10/6E8098?text=+) #6E8098 |
+
+## Demo/Live
+
+[Live](#)
+Demo Link will be added later.
+
+## Roadmap
+
+- Day 1
+  - Planing
+  - install Next.js
+  - Initial Setup
+  - Sass Folder Setup
+    - \_global.scss /w Fonts, Typography
+    - \_variables.scss /w Colors
+  - Mock Data.json to Javascript Object
+
+## Run Locally
+
+Install dependencies
 
 ```bash
-npm run dev
-# or
-yarn dev
+  npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the server
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+  npm run dev
+```
