@@ -1,6 +1,11 @@
 @import './abstracts/mixins';
-@import './abstracts/variables';
+@import './abstracts/theme';
 
 @import './base/globals';
 @import './base/typography';
 @import './base/animations';
+
+.Test {
+  background-color: var(--background);
+  font-size: 4rem;
+}

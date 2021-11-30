@@ -4,7 +4,7 @@ Devjobs App is Job Ads Listing Applications for Developers. Original project cre
 
 ## Tech Stack
 
-**Client:** Next.js, Sass(/w Flexbox), React Icons
+**Client:** Next.js, Sass(/w Flexbox), Framer, React Icons
 
 **Todo:** MongoDB, Redux?
 
@@ -24,6 +24,8 @@ Devjobs App is Job Ads Listing Applications for Developers. Original project cre
 | Gray             | ![#9DAEC2](https://via.placeholder.com/10/9DAEC2?text=+) #9DAEC2 |
 | Dark Gray        | ![#6E8098](https://via.placeholder.com/10/6E8098?text=+) #6E8098 |
 
+Also Font: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+
 ## Demo/Live
 
 [Live](#)
@@ -32,6 +34,7 @@ Demo Link will be added later.
 ## Roadmap
 
 - Day 1
+
   - Planing
   - install Next.js
   - Initial Setup
@@ -39,6 +42,11 @@ Demo Link will be added later.
     - \_global.scss /w Fonts, Typography
     - \_variables.scss /w Colors
   - Mock Data.json to Javascript Object
+
+- Day 2
+  - Setting up Dark/Light Implementation with next-themes & Sass
+    - Changed the Sass file structure. I moved all \_variables.scss to \_themes.scss file structure helps to keep variables with parent theme-mode.
+  - Components and Common Component file structure.
 
 ## Run Locally
 
