@@ -10,14 +10,22 @@ $secondary-light-gray: #f4f6f8;
 $secondary-gray: #9daec2;
 $secondarty-dark-gray: #6e8098;
 
+// Page Breakdowns
+$desktop-max-width: 144rem;
+
+// App Widths
+$desktop-app-width: 144rem;
+
 :root {
   // Light Theme
   --background: #{$secondary-light-gray};
   --text: #{$primary-light-violet};
+  --search: #{$secondary-white};
 
   // Dark Theme
   &[data-theme='dark'] {
     --background: #{$primary-midnight};
     --text: #{$secondarty-dark-gray};
+    --search: #{$primary-very-dark-blue};
   }
 }

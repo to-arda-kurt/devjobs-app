@@ -4,8 +4,7 @@
 @import './base/globals';
 @import './base/typography';
 @import './base/animations';
+@import './base/layout';
 
-.Test {
-  background-color: var(--background);
-  font-size: 4rem;
-}
+@import './components/header';
+@import './components/search';

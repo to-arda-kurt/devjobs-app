@@ -26,6 +26,14 @@ Devjobs App is Job Ads Listing Applications for Developers. Original project cre
 
 Also Font: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 
+## Breakdowns
+
+// Page Breakdowns
+$desktop-max-width: 144rem;
+
+// App Widths
+$desktop-app-width: 144rem;
+
 ## Demo/Live
 
 [Live](#)
@@ -44,9 +52,16 @@ Demo Link will be added later.
   - Mock Data.json to Javascript Object
 
 - Day 2
+
   - Setting up Dark/Light Implementation with next-themes & Sass
     - Changed the Sass file structure. I moved all \_variables.scss to \_themes.scss file structure helps to keep variables with parent theme-mode.
   - Components and Common Component file structure.
+  - Very basic Next api call with mock data provided and call from index.app.
+
+- Day 3
+  - Next/Head seperated another component seo and web app tags will update later.
+  - Assets SVG component created common/elements/assets/logos
+  - Header & Search Placement
 
 ## Run Locally
 

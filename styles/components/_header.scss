@@ -1,0 +1,14 @@
+.header {
+  background-image: url('/assets/desktop/bg-pattern-header.svg');
+  background-repeat: no-repeat;
+  height: 20rem;
+
+  @include desktopMaxWidth;
+
+  &--upper-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 44px;
+  }
+}

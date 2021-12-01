@@ -1,0 +1,9 @@
+@mixin desktopMaxWidth {
+  margin: 0 auto;
+  max-width: $desktop-max-width;
+}
+
+@mixin AppWidth {
+  margin: 0 auto;
+  max-width: $desktop-app-width;
+}

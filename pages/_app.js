@@ -4,7 +4,7 @@ import '../styles/main.scss';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider>
+    <ThemeProvider storageKey="theme" enableSystem={true}>
       <Component {...pageProps} />
     </ThemeProvider>
   );
