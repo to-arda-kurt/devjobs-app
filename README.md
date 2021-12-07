@@ -29,10 +29,10 @@ Also Font: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 ## Breakdowns
 
 // Page Breakdowns
-$desktop-max-width: 144rem;
+$desktop-max-width: 1440px;
 
 // App Widths
-$desktop-app-width: 144rem;
+$desktop-app-width: 1140px;
 
 ## Demo/Live
 
@@ -59,9 +59,14 @@ Demo Link will be added later.
   - Very basic Next api call with mock data provided and call from index.app.
 
 - Day 3
+
   - Next/Head seperated another component seo and web app tags will update later.
   - Assets SVG component created common/elements/assets/logos
   - Header & Search Placement
+
+- Day 4
+  - Theme Toggle
+  - APP Icon Components with locale SVGs
 
 ## Run Locally
 
