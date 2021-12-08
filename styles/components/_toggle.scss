@@ -5,18 +5,15 @@
   justify-items: center;
   gap: 1.6rem;
 
-  &--light {
+  &__light {
     color: white;
   }
 
-  &--dark {
+  &__dark {
     color: black;
-
-    svg path {
-    }
   }
 
-  &--switch {
+  &__switch {
     &__mode {
       // LABEL
       position: relative;

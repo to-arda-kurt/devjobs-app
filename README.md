@@ -41,7 +41,7 @@ Demo Link will be added later.
 
 ## Roadmap
 
-- Day 1
+- Day 1 
 
   - Planing
   - install Next.js
@@ -64,9 +64,12 @@ Demo Link will be added later.
   - Assets SVG component created common/elements/assets/logos
   - Header & Search Placement
 
-- Day 4
+- Day 4/5
   - Theme Toggle
   - APP Icon Components with locale SVGs
+  - Decided to use Redux for state management
+    - App Variables
+    - Jobs
 
 ## Run Locally
 

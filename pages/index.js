@@ -22,7 +22,7 @@ export default function Home({ jobs }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch('http://localhost:3000/api/jobs');
+  const res = await fetch('http://192.168.0.18:3000/api/jobs');
 
   const jobs = await res.json();
 
