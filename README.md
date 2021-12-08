@@ -6,7 +6,17 @@ Devjobs App is Job Ads Listing Applications for Developers. Original project cre
 
 **Client:** Next.js, Sass(/w Flexbox), Framer, React Icons
 
-**Todo:** MongoDB, Redux?
+**Todo:** MongoDB, Redux?, Firebase?
+
+## Folder Structure Explanation
+
+.
+├──common #Application Design Elements & Components for repeatedly use /w Utils
+├──components #React Components with parent to child hierarchy
+├──data #Mock data TODO:Replace with database
+├──store #Redux Toolkit store and App Features
+├──styles #SASS files
+.
 
 ## Color Reference
 
@@ -41,7 +51,7 @@ Demo Link will be added later.
 
 ## Roadmap
 
-- Day 1 
+- Day 1
 
   - Planing
   - install Next.js
@@ -65,11 +75,20 @@ Demo Link will be added later.
   - Header & Search Placement
 
 - Day 4/5
+
   - Theme Toggle
   - APP Icon Components with locale SVGs
   - Decided to use Redux for state management
     - App Variables
     - Jobs
+
+- Day 6
+
+  - Folder Structure
+  - Search Placement
+  - Joblist Components
+  - Redux Toolkit
+  - Small bugs
 
 ## Run Locally
 

@@ -4,4 +4,49 @@
   background-color: var(--search);
   margin-top: 4.5rem;
   border-radius: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__filter {
+    width: 46.4rem;
+    height: 100%;
+    border-right: 1px solid #6e80984b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+    margin-left: 3.2rem;
+
+    &__text {
+      width: 100%;
+      input {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+  &__location {
+    width: 30rem;
+    height: 100%;
+    border-right: 1px solid #6e80984b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+    margin-left: 2.3rem;
+  }
+
+  &__button {
+    height: 100%;
+    width: 34.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.6rem;
+    margin-left: 3.2rem;
+    margin-right: 1.6rem;
+  }
 }

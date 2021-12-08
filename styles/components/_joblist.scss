@@ -1,0 +1,16 @@
+.joblist {
+  @include desktopMaxWidth;
+
+  width: $desktop-app-width;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem 4rem;
+
+  &__card {
+    width: 30rem;
+    // height: 25.3rem;
+  }
+}
