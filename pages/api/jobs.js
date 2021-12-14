@@ -1,5 +1,9 @@
-import Data from '../../data/data';
+import data from '../../data/data.json';
 
 export default function handler(req, res) {
-  res.status(200).json(Data);
+  if (req.method === 'GET') {
+    res.status(200).json(data);
+  } else {
+    res.status(500);
+  }
 }

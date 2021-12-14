@@ -35,13 +35,13 @@ const CompanyLogo = ({ company }) => {
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
           <path
             fill="#F94F4F"
-            filRule="evenodd"
+            fillRule="evenodd"
             d="M13 0c6.08 0 11.186 4.175 12.607 9.814h-1.964c-.094.516-.283.93-.567 1.243-.284.312-.696.468-1.236.468-.486 0-1.013-.13-1.58-.387a52.835 52.835 0 01-1.845-.886 14.576 14.576 0 00-2.198-.875C15.413 9.126 14.532 9 13.572 9c-1.729 0-3.09.733-4.083 2.2-.937 1.384-1.432 3.234-1.484 5.551L8 17.165h4.357c.094-.502.307-.91.638-1.222.33-.312.773-.468 1.327-.468.46 0 .966.126 1.52.377a65.15 65.15 0 011.864.886c.69.339 1.449.634 2.28.885A9.31 9.31 0 0022.69 18c1.004 0 1.879-.275 2.625-.825C23.577 22.305 18.72 26 13 26 5.82 26 0 20.18 0 13S5.82 0 13 0z"
           />
         </svg>
       );
 
-    case 'Crowfund':
+    case 'Crowdfund':
       return (
         <svg xmlns="http://www.w3.org/2000/svg" width="38" height="6">
           <path
@@ -92,9 +92,9 @@ const CompanyLogo = ({ company }) => {
           <g fill="none" fillRule="evenodd">
             <circle cx="20" cy="10" r="10" fill="#5175FF" />
             <mask id="b" fill="#fff">
-              <use xLinkHref="#a" />
+              <use />
             </mask>
-            <use fill="#5175FF" xLinkHref="#a" />
+            <use fill="#5175FF" />
             <circle
               cx="20"
               cy="10"
@@ -107,7 +107,7 @@ const CompanyLogo = ({ company }) => {
         </svg>
       );
 
-    case 'Officelite':
+    case 'Office Lite':
       return (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -121,9 +121,9 @@ const CompanyLogo = ({ company }) => {
           <g fill="none" fillRule="evenodd">
             <circle cx="20" cy="10" r="10" fill="#5175FF" />
             <mask id="b" fill="#fff">
-              <use xLinkHref="#a" />
+              <use />
             </mask>
-            <use fill="#5175FF" xLinkHref="#a" />
+            <use fill="#5175FF" />
             <circle
               cx="20"
               cy="10"
@@ -150,9 +150,9 @@ const CompanyLogo = ({ company }) => {
           <g fill="none" fillRule="evenodd">
             <circle cx="20" cy="10" r="10" fill="#5175FF" />
             <mask id="b" fill="#fff">
-              <use xLinkHref="#a" />
+              <use />
             </mask>
-            <use fill="#5175FF" xLinkHref="#a" />
+            <use fill="#5175FF" />
             <circle
               cx="20"
               cy="10"

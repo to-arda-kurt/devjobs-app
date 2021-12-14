@@ -9,6 +9,7 @@ const JobList = ({ jobs }) => {
           <JobCard key={job.id} job={job} />
         ))}
       </div>
+      <button>Load More</button>
     </>
   );
 };

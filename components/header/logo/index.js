@@ -1,9 +1,14 @@
 import CompanyLogo from '../../../common/elements/assets/logos';
+import Link from 'next/link';
 
 const Logo = () => {
   return (
     <>
-      <CompanyLogo company="Devjobs" />
+      <Link href="/">
+        <a>
+          <CompanyLogo company="Devjobs" />
+        </a>
+      </Link>
     </>
   );
 };

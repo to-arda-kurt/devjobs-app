@@ -21,11 +21,12 @@ $desktop-app-width: 1140px;
   --background: #{$secondary-light-gray};
   --text: #{$primary-light-violet};
   --search: #{$secondary-white};
-
+  --cardBackground: #{$secondary-white};
   // Dark Theme
   &[data-theme='dark'] {
     --background: #{$primary-midnight};
     --text: #{$secondarty-dark-gray};
     --search: #{$primary-very-dark-blue};
+    --cardBackground: #{$primary-very-dark-blue};
   }
 }

@@ -2,15 +2,60 @@
   @include desktopMaxWidth;
 
   width: $desktop-app-width;
-  margin-top: 8rem;
+
+  margin-top: 10.5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 3rem 4rem;
+  gap: 6.5rem 3rem;
 
   &__card {
-    width: 30rem;
+    width: 35rem;
+    cursor: pointer;
+
     // height: 25.3rem;
+
+    &__wrapper {
+      background-color: var(--cardBackground);
+      width: 100%;
+      height: 22.8rem;
+      border-radius: 6px;
+      position: relative;
+
+      &__logo {
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: -2.5rem;
+        left: 3.2rem;
+      }
+
+      &__info {
+        padding: 5rem 3.2rem 3.2rem 3.2rem;
+        overflow-x: hidden;
+
+        //Micro Reset for Card Placement
+        p,
+        h3 {
+          line-height: 1.3rem;
+          white-space: nowrap;
+        }
+
+        p {
+          color: $secondarty-dark-gray;
+        }
+
+        h4 {
+          font-size: 1.4rem;
+          color: $primary-violet;
+          line-height: 5rem;
+        }
+      }
+    }
   }
 }

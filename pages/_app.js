@@ -1,13 +1,17 @@
 import { ThemeProvider } from 'next-themes';
-
+import LayoutHeader from '../common/layout';
+import AppWidth from '../common/layout/AppWitdh';
 import '../styles/main.scss';
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <ThemeProvider storageKey="theme" enableSystem={true}>
-      <Component {...pageProps} />
+      <LayoutHeader />
+      <AppWidth>
+        <Component {...pageProps} />
+      </AppWidth>
     </ThemeProvider>
   );
-}
+};
 
 export default MyApp;

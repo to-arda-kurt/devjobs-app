@@ -1,29 +1,48 @@
-import AppHead from '../common/elements/head';
 import { useTheme } from 'next-themes';
-import CompanyLogo from '../common/elements/assets/logos';
-import Header from '../components/header';
+import LayoutHeader from '../common/layout';
 import JobList from '../components/joblist';
+
+import {
+  getDatabase,
+  ref,
+  query,
+  limitToLast,
+  get,
+  child,
+} from 'firebase/database';
+import firebase from '../config/firebase';
 
 export default function Home({ jobs }) {
   const { theme, setTheme } = useTheme();
 
+  const firstjob = jobs.find((job) => job.id === 1);
+
+  console.log(firstjob);
+
   // TODO: THIS PAGE WILL BE COMPLETELY CHANGED
   return (
     <div className="container">
-      <AppHead />
-      <Header />
-
       <main>
         <JobList jobs={jobs} />
+
+        <p></p>
       </main>
     </div>
   );
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch('http://192.168.0.18:3000/api/jobs');
+  const database = getDatabase(firebase);
+  const jobListRef = ref(database);
+  let jobList = [];
+  await get(child(jobListRef, 'jobs/')).then((snapshot) => {
+    snapshot.forEach((jobChildSnapshot) => {
+      jobList.push(jobChildSnapshot.val());
+    });
+  });
+  console.log(jobList);
 
-  const jobs = await res.json();
+  const jobs = jobList;
 
   return {
     props: {
